@@ -1,2 +1,1 @@
-# ihor-voznyi-goit-markup-hw-02
-Copy
+# goit-markup-hw-02
