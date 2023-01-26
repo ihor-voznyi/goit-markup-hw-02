@@ -8,17 +8,15 @@
      --accent: #E7E9FC;
      --pressed-state: #404BBF;
      --success: #31D0AA;
-
  }
 
  body {
      color: var(--text);
      background-color: var(--white);
+  
      font-family: roboto, sans-serif;
-
  }
 
- /* Скидання маркеру списку */
  .list {
      list-style: none;
  }
