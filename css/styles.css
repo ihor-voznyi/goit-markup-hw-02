@@ -62,7 +62,7 @@
  .link {
      color: var(--dark);
 
-     font-weight: 600;
+     font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
 
@@ -118,7 +118,7 @@
 
  .hero-title {
      color: var(--white);
-     font-weight: 600;
+     font-weight: 700;
      font-size: 56px;
      line-height: 1.07;
      letter-spacing: 0.02em;
@@ -135,7 +135,7 @@
      background-color: var(--primary-brand);
 
      font-family: inherit;
-     font-weight: 600;
+     font-weight: 500;
      font-size: 16px;
      line-height: 1.19;
      letter-spacing: 0.04em;
@@ -144,14 +144,25 @@
      font-family: inherit;
  }
 
-
- .features-title,
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+ 
  .work-title,
  .team-title,
  .portfolio-title {
      color: var(--dark);
 
-     font-weight: 600;
+     font-weight: 700;
      font-size: 36px;
      line-height: 1.11;
      text-align: center;
@@ -161,7 +172,7 @@
  .title {
      color: var(--dark);
 
-     font-weight: 600;
+     font-weight: 500;
      font-size: 20px;
      line-height: 1.2;
      letter-spacing: 0.02em;
@@ -198,7 +209,7 @@
      background-color: var(--light);
 
      font-family: inherit;
-     font-weight: 600;
+     font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
      letter-spacing: 0.04em;
