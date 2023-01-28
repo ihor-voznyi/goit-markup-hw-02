@@ -144,6 +144,11 @@
      font-family: inherit;
  }
 
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--pressed-state);
+}
+
 .visually-hidden {
     position: absolute;
     white-space: nowrap;
